@@ -13,15 +13,13 @@ right when the buttons are clicked.
 if the window is made smaller.
 */
 
-import React from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
 
-const link = 'https://gist.githubusercontent.com/manfredxu99/df3be12d855d2e8825d30784a43d4b31/raw/d5efd3062343703df33bf0ec1b0c469fb83cb9f9/cat.json';
-const CHEVRON_LEFT_SRC = 'https://icons.deanishe.net/icon/material/444/arrow-back/256.png'
-const CHEVRON_RIGHT_SRC = 'https://icons.deanishe.net/icon/material/444/arrow-right/256.png'
+import CatGallery from './components/cat-gallery-component/CatGalleryComponent';
 
-const CatGallery = () => {
-  return null
+const CatGalleryApp = () => {
+  return <CatGallery />;
 }
 
-export default CatGallery
+export default CatGalleryApp;
